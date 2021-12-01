@@ -4,11 +4,17 @@
 }
 .posters {
   display: flex;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 20px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
+
 .posters::-webkit-scrollbar {
+  display: none;
+}
+.posters_small::-webkit-scrollbar {
   display: none;
 }
 .poster {
@@ -24,7 +30,7 @@
   border-radius: 5px;
 }
 .poster:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   transition: 0.4s;
 }
 .poster:not(:hover) {
@@ -36,4 +42,8 @@
 }
 .small_poster:not(:hover) {
   transition: 0.15s;
+}
+h2 {
+  font-weight: 500;
+  font-size: medium;
 }

@@ -18,10 +18,10 @@ function App() {
       <NavBar />
       <Banner />
       <RowPost url={originals} title="Netflix Originals" />
-      <RowPost url={action} title="Action" isSmall />
-      <RowPost url={comedy} title="Comedy" isSmall />
-      <RowPost url={horror} title="Horror" isSmall />
-      <RowPost url={romance} title="Romance" isSmall />
+      <RowPost url={action} title="Action Movies" isSmall />
+      <RowPost url={comedy} title="Comedy Movies" isSmall />
+      <RowPost url={horror} title="Horror Movies" isSmall />
+      <RowPost url={romance} title="Romantic Movies" isSmall />
       <RowPost url={documentaries} title="Documentaries" isSmall />
     </div>
   );
