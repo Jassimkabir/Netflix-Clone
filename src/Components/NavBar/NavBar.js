@@ -16,25 +16,10 @@ function NavBar() {
       />
       <div className="nav_actions">
         <a className="link" href="#">
-          Home
-        </a>
-        <a className="link" href="#">
-          TV Shows
-        </a>
-        <a className="link" href="#">
           Movies
         </a>
         <a className="link" href="#">
-          Latest
-        </a>
-        <a className="link" href="#">
-          My List
-        </a>
-      </div>
-      <div className="search_btn">
-        <i class="fas fa-search"></i>
-        <a className="link" href="#">
-          Kids
+          TV Shows
         </a>
       </div>
     </div>
