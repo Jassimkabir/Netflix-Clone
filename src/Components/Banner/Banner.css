@@ -12,7 +12,7 @@
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
-  max-width: 500px;
+  max-width: 600px;
 }
 .button {
   color: white;
@@ -38,7 +38,7 @@
   padding-top: 1rem;
   font-size: 1rem;
   height: 80px;
-  max-width: 360px;
+  max-width: 450px;
 }
 .fade_bottom {
   height: 11.9rem;
@@ -48,4 +48,7 @@
     rgba(37, 37, 37, 0.61),
     #111
   );
+}
+.rating {
+  font-weight: 400;
 }
